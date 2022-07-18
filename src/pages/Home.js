@@ -27,9 +27,9 @@ export function Home() {
     } else if (currentHour >= 12 && currentHour < 18) {
       setGretting('Good afternoon');
     } else {
-      setgretting('Good evening')
+      setGretting('Good evening')
     }
-  }, [mySkills])
+  }, [])
 
   return (
     <View style={styles.container}>
